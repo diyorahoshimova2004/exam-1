@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.container {
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+.navbar-menyu {
+    list-style: none;
+    display: flex;
+    gap: 21px;
+}
+
+.navbar-h3 {
+    width: 700px;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.navbar-menyu li a {
+    text-decoration: none;
+    color: #737373;
+    cursor: pointer;
+}
+
+.navbar-menyu li a:hover {
+    color: #000;
+}
+
+header {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+
+
+#hero {
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 120px;
+
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px;
+
+}
+
+.hero-matn h1 {
+    width: 800px;
+    color: #252525;
+    font-size: 58px;
+    padding-top: 184px;
+
+}
+
+.hero-matn h4 {
+    width: 500px;
+    font-size: 20px;
+    color: #737373;
+    line-height: 30px;
+    margin-top: 35px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 35px;
+}
+
+.btn {
+    border-radius: 37px;
+    width: 185px;
+    height: 48px;
+    padding-left: 36px;
+    padding-right: 36px;
+    color: #00a0c1;
+    background-color: white;
+    font-size: 14px;
+    border: 200px #00a0c1;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    background-color: #FFA62B;
+    color: white;
+}
+
+.hero2 {
+    margin-top: -100px;
+    display: flex;
+    gap: 30px;
+    padding-left: 30px;
+    justify-content: space-between;
+}
+
+.heroapelsin:hover {
+    background-color: #00a0c1;
+}
+
+.heroapelsin {
+    width: 330px;
+    height: 240px;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px grey;
+}
+
+.heroapelsin h1 {
+    color: #252B42;
+    font-size: 24px;
+    height: 32px;
+    padding-left: 40px;
+
+}
+
+.heroapelsin p {
+    color: #737373;
+    font-size: 14px;
+    height: 20px;
+    padding-left: 40px;
+    padding-top: 15px;
+}
+
+.apelsin {
+    padding-left: 40px;
+    padding-bottom: 10px;
+    padding-top: 35px;
+}
+
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px;
+    text-align: center;
+}
+
+#about {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #f9f9f9;
+}
+
+.idabout {
+    text-align: center;
+    vertical-align: auto;
+    width: 846px;
+    gap: 10px;
+}
+
+.aboutimg {
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    gap: 10px;
+    cursor: pointer;
+    background-color: white;
+
+}
+
+.aboutimg h2 {
+    width: 53px;
+    line-height: 57px;
+    color: #252B42;
+
+}
+
+.aboutimg:hover {
+    box-shadow: 10px 10px 10px 10px#00000040;
+}
+
+#adwise {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: #FFFFFF;
+    background-color: #f9f9f9;
+}
+
+.idadwise {
+    text-align: center;
+
+    gap: 10px;
+    color: #252B42;
+
+}
+
+.adwisediv {
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    gap: 10px;
+    cursor: pointer;
+
+}
+
+.adwisediv:hover {
+    box-shadow: 10px 10px 10px 10px #00000040;
+}
+
+.adwise {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px;
+
+}
+
+.adwisediv{
+    background-color: white;
+}
+
+.adwisediv h5 {
+    width: 130px;
+    color: #252B42;
+    line-height: 24px;
+    margin-bottom: 10px;
+
+}
+
+.adwisediv p {
+    width: 160px;
+    color: #737373;
+    line-height: 20px;
+}
+.idbussnes{
+    text-align: center;
+}
+.bussnes{
+    display: flex;
+        
+        padding: 40px 60px;
+        gap: 50px;
+}
+.icon{
+    display: flex;
+    margin-top: 30px;
+    gap: 15px;
+    
+}
+.content h6{
+   margin-left: 50px;
+   color: #737373; 
+}
+#bussnes{
+    padding-top: 80px;
+        padding-bottom: 80px;
+        color: #FFFFFF;
+        background-color: #f9f9f9;
+}
+.idbussnes h2{
+   color: #252B42; 
+   font-size: 40px;
+
+}
+.idbussnes p{
+    color: #737373;
+    font-size: 14px;
+   
+}
+.content h2{
+    color: #252B42;
+    font-size: 40px;
+        line-height: 57px;
+}
+.content p{
+    color: #737373;
+    font-size: 14px;
+}
+.icon h5{
+   color: #252B42; 
+}
+
